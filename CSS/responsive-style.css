@@ -1,0 +1,203 @@
+@media only screen and (max-width:1160px){
+    .contact .cleft{
+        width: 45%; 
+    }
+}
+@media only screen and (max-width:1060px){
+    .banner .text h1{
+        font-size: 45px;
+        padding-top: 30px;
+    }
+    .banner .text h2{
+        font-size: 28px;
+    }
+    .banner .text p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .gallary .gallary-head{
+        font-size: 26px;
+        padding: 35px 10px;
+    }
+
+    .gallary .box-content #item-name h3{
+        padding: 10px 0px;
+        font-size: 22px;
+    }
+    .gallary .box-content p{
+        padding: 0px 10px 15px 10px;
+        font-size: 14px;
+    }
+    .contact .cleft{
+        width: 47%; 
+    }
+}
+@media only screen and (max-width:870px){
+    .banner .header,.hright{
+        flex-direction: column;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .ToggleShow {
+        display: flex;
+        flex-direction: column;
+      }
+        
+    .toggle-bar {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        margin-right: 40px;
+    }
+    .banner .nav-item{
+        padding: 15px 0px; 
+        margin: 0px auto;
+    }
+    .banner .text h1{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .banner .text h2{
+        font-size: 25px;
+        color: #ff3e3e;
+    }
+    .banner .text p{
+        font-size: 15px;
+        padding-top: 10px;
+    } 
+    .gallary .container .box{
+        width: 40%;
+        margin: 20px 35px 60px 35px;
+    }   
+    .contact .cleft{
+        width: 60%; 
+    }
+   
+    .footer-section .fleft{
+        padding-left: 20px;
+    }
+    .footer-section .fleft h2{
+        padding: 20px 35px;
+        font-size: 25px;
+    }
+    .footer-section .fleft h5{
+        font-size: 15px;
+    }
+    .footer-section .fleft p{
+        font-size: 12px;
+    }
+    .footer-section .footer-box li a{
+        font-size: 14px;
+    }
+    .footer-section .fcenter h5{
+        font-size: 20px;
+    }
+    .footer-section .footer-box .fright{
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width:696px){
+    
+    .banner .text h1{
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    .banner .text h2{
+        font-size: 22px;
+    }
+    .banner .text p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .gallary .container .box{
+        width: 40%;
+        margin: 20px 25px 60px 25px;
+    }
+    .contact .cleft{
+        width: 78%; 
+    }
+    .footer-section .fleft{
+        padding-left: 15px;
+    }
+    .footer-section .fleft h2{
+        padding: 10px 35px;
+        font-size: 24px;
+    }
+    .footer-section .footer-box li a i{
+        font-size: 10px;
+    }
+    .footer-section .footer-box li a{
+        font-size: 12px;
+    }
+    .footer-section .fcenter h5{
+        padding: 22px 0px 18px 0px;
+        font-size: 18px;
+    }
+    .footer-section .footer-box .fleft ul{
+        display: none;
+    }
+
+    .footer-section .footer-box .fcenter{
+        padding-left: 20px;
+    }
+    .footer-section .footer-box .fright{
+        padding-right: 20px;
+    }
+    .footer-section .fright h5{
+        font-size: 20px;
+    }
+    .footer-section .fright input{
+        width: 90%;
+        padding: 8px;
+    }
+    .footer-section .fright h3{
+        display: none;
+    }
+    .footer-section .fright ul{
+        display: none;
+    }
+
+    
+    .copyright-section p{
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 500px ){
+    
+    .banner .text h1{
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .banner .text h2{
+        font-size: 18px;
+    }
+    .banner .text p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .gallary .container .box{
+        width: 80%;
+        margin: 20px 25px 60px 25px;
+    }
+    .toggle-bar {
+        margin-right: 0px;
+    }
+    .contact .cleft{
+        width: 88%; 
+    }
+    .footer-section .fleft{
+        padding-left: 10px;
+    }
+    .footer-section .fright h3{
+        display: none;
+    }
+    .footer-section .fright ul{
+        display: none;
+    }
+    
+}
