@@ -1,6 +1,18 @@
-@media only screen and (max-width:1160px){
-    .contact .cleft{
-        width: 45%; 
+/* Responsive form adjustments */
+@media only screen and (max-width: 600px) {
+    .contact h2 {
+        font-size: 28px;
+        padding-left: 5%;
+    }
+
+    .contact .cleft {
+        width: 90%;
+        left: 5%;
+        padding: 20px;
+    }
+
+    form {
+        gap: 0.8rem;
     }
 }
 @media only screen and (max-width:1060px){
@@ -28,9 +40,7 @@
         padding: 0px 10px 15px 10px;
         font-size: 14px;
     }
-    .contact .cleft{
-        width: 47%; 
-    }
+
 }
 @media only screen and (max-width:870px){
     .banner .header,.hright{
@@ -117,9 +127,7 @@
         width: 40%;
         margin: 20px 25px 60px 25px;
     }
-    .contact .cleft{
-        width: 78%; 
-    }
+   
     .footer-section .fleft{
         padding-left: 15px;
     }
@@ -187,9 +195,7 @@
     .toggle-bar {
         margin-right: 0px;
     }
-    .contact .cleft{
-        width: 88%; 
-    }
+    
     .footer-section .fleft{
         padding-left: 10px;
     }
