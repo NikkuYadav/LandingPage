@@ -158,45 +158,59 @@ img{
 
 /* Contact Section */
 
-.contact{
-    background-image: url('../images/contact-img.jpg'); 
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; 
-} 
-.contact h2{
-    padding: 3% 0 0 8%;
-    font-size: 35px;
-    color: #ff3e3e;
-    font-weight: bolder;
-}
-.contact .cleft{
-    background: linear-gradient(rgb(40,62,50),rgb(20, 47, 42),rgb(83,143,109),rgb(200,205,164));
-    width: 35%;
-    position: relative;
-    top: 5%;
-    left: 6%;
-    padding: 30px;
-    border-radius: 10px;
-}
-.cleft input{
-    height: 30px;
-    outline: none;
-    border: none;
-    padding: 10px;
-    margin-bottom: 10px;
+/* Contact Form Enhancements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.cleft button{
-    padding: 15px;
-    border-radius: 50px;
-    background-image: linear-gradient(to right, rgba(255,0,0,1) , rgba(255, 166, 0, 0.822));
-    border: none;
-    color: rgba(0, 0, 0, 0.918);
-    font-weight: bolder;
+.form-group {
+    display: flex;
+    flex-direction: column;
 }
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border: 2px solid #ff3e3e;
+    background-color: #fff8f0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #ff3e3e, orange);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, orange, #ff3e3e);
+}
+
+
 
 /* Footer Section */
 .footer{
