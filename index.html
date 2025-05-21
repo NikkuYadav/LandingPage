@@ -91,22 +91,36 @@
         </section>
     </div>
     <!-- Contact Part -->
-    <section class="contact" id="contact">
-        <h2>Contact Us :</h2>
-        <div class="cleft">
-            <form method="post" name="name">
-                <label for="name">Customer Name:</label>
-                <input type="text" name="name" placeholder="Enter Name..." id="name" /><br />
-                <label for="email">Customer Email:</label>
-                <input type="email" name="email" placeholder="Enter Email..." id="email" /><br />
-                <label for="phone">Customer Phone:</label>
-                <input type="number" name="phone" placeholder="Enter phone..." id="phone" /><br />
-                <label for="item">Item Name :</label>
-                <input type="text" name="item" placeholder="Enter item..." id="item" /><br />
-                <button>Submit</button>
-            </form>
-        </div>
-    </section>
+    <!-- Contact Part -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="cleft">
+        <form method="post" name="contactForm">
+            <div class="form-group">
+                <label for="name">Customer Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Customer Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Customer Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required />
+            </div>
+
+            <div class="form-group">
+                <label for="item">Item Name</label>
+                <input type="text" name="item" id="item" placeholder="Enter item name" required />
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
 
 
     <!-- Footer Section -->
